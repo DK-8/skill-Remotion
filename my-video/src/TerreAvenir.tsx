@@ -1,9 +1,11 @@
 import React from 'react';
 import {
 	AbsoluteFill,
+	Audio,
 	interpolate,
 	Sequence,
 	spring,
+	staticFile,
 	useCurrentFrame,
 	useVideoConfig,
 } from 'remotion';
@@ -614,6 +616,7 @@ const ConclusionSection: React.FC = () => {
 export const TerreAvenir: React.FC = () => {
 	return (
 		<AbsoluteFill>
+			<Audio src={staticFile('voiceover.mp3')} />
 			<Background />
 
 			<Sequence from={T.CONSTAT_START} durationInFrames={T.PROBLEMATIQUE_START - T.CONSTAT_START + 15}>

@@ -1,0 +1,30 @@
+export const C = {
+	appGreen: '#2E7D32',
+	appGreenLight: '#4CAF50',
+	appGreenPale: '#E8F5E9',
+	appGreenDark: '#1B5E20',
+	proprioBg: '#FFF3E0',
+	proprioText: '#795548',
+	proprioBorder: '#A1887F',
+	investBg: '#FFFDE7',
+	investText: '#F57F17',
+	investBorder: '#FFD54F',
+	agroBg: '#E8F5E9',
+	agroText: '#2E7D32',
+	white: '#FFFFFF',
+	offWhite: '#FAFAFA',
+	lightGray: '#F0F0F0',
+	gray: '#E0E0E0',
+	darkGray: '#9E9E9E',
+	medText: '#424242',
+	darkText: '#212121',
+	matcherBtn: '#4E342E',
+	pendingOrange: '#E65100',
+	processingBlue: '#1565C0',
+	bgGrad1: '#0A1F0A',
+	bgGrad2: '#1A4A1A',
+	overlayDark: 'rgba(0,0,0,0.55)',
+};
+
+export const PHONE_W = 390;
+export const PHONE_H = 845;
